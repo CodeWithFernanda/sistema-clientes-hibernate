@@ -45,6 +45,7 @@ db.password=SUA_SENHA
    SELECT * FROM cliente;
 
 
+
 ⚙️ Observações sobre Configuração
 
 1. O sistema utiliza um arquivo externo (dbconfig.properties) para os dados de conexão com o banco.
@@ -53,7 +54,8 @@ db.password=SUA_SENHA
 
 3. Funciona com MySQL ou MariaDB — apenas altere a db.url se necessário, por exemplo:
 
-db.url=jdbc:mariadb://localhost:3306/sistema_clientes
+   db.url=jdbc:mariadb://localhost:3306/sistema_clientes
+
 
 
 🛠️ Futuras Melhorias
