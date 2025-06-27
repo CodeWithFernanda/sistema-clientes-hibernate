@@ -25,8 +25,6 @@ Este projeto consiste em uma aplicação de linha de comando para o gerenciament
 
 ## 🔧 Como Executar
 
-## 🔧 Como Executar
-
 1. Clone este repositório  
 2. Importe como projeto Maven no Eclipse (ou outra IDE compatível)  
 3. Crie o banco de dados no MySQL ou MariaDB:
@@ -45,7 +43,6 @@ db.password=SUA_SENHA
    SELECT * FROM cliente;
 
 
-
 ⚙️ Observações sobre Configuração
 
 1. O sistema utiliza um arquivo externo (dbconfig.properties) para os dados de conexão com o banco.
@@ -55,7 +52,6 @@ db.password=SUA_SENHA
 3. Funciona com MySQL ou MariaDB — apenas altere a db.url se necessário, por exemplo:
 
    db.url=jdbc:mariadb://localhost:3306/sistema_clientes
-
 
 
 🛠️ Futuras Melhorias
@@ -73,8 +69,12 @@ db.password=SUA_SENHA
 7. Criação de usuários com autenticação básica
 
 
+
+
 👩‍💻 Sobre a Autora
 Projeto desenvolvido por Fernanda, aluna do curso Técnico em Desenvolvimento de Sistemas – SENAI Camaçari, como parte da disciplina Programação Orientada a Objetos. Veja mais em: https://github.com/CodeWithFernanda
+
+
 
 
 📚 Licença
